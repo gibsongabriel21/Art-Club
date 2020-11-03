@@ -1,3 +1,3 @@
 # Art-Club
 
-Gabriel Gibson, Zach Matthews, Arthur
+Gabriel Gibson, Zach Matthews, Arthur Cox

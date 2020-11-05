@@ -13,6 +13,11 @@
   <!--This page will be used to show off art from the club. A slideshow that can be
    scrolled through and automatically proceeds is also planned-->
   <body>
+      <style>
+          body {
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/2e/Wood_background.jpg');
+          }
+          </style>
     <div class="navigator">
       <ul class="navigation">
         <li><a href="index.html">Home</a></li>
@@ -59,5 +64,22 @@
     <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
   </div>
+  <script>
+    var slideindex = 0;
+    showSlides();
+
+  function showSlides() {
+    var i;
+    var slides=document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideindex=1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 5000);
+  }
+  </script>
+
 </body>
 </html>

@@ -1,6 +1,6 @@
 .heading {
   font-family: "perpetua", serif;
-  text-align: center;
+  text-align: left;
 }
 /* Customized the links at the top of the website */
 .navigation {
@@ -11,6 +11,13 @@
   margin: 0;
   padding: 0;
 }
+.title {
+  background-color: #505050;
+  display: flex;
+  font-family: "perpetua", serif;
+  font-size: 60px;
+  color: white;
+}
 
 li a {
   display: inline-block;
@@ -18,7 +25,8 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  float: left;
+  text-align: right;
+  float: right;
 }
 
 li a:hover {
@@ -35,4 +43,37 @@ body {
 
   margin: 0 0 0 0;
   /* Center vertically and horizontally */
+}
+
+.flex-container {
+  flex-direction: column;
+  text-align: center;
+  flex: 1 2 300px;
+}
+
+.flex-item-1 {
+  border-radius: 40px;
+  border-width: 150px;
+  background-color: white;
+}
+
+.flex-item-2 {
+  border-radius: 70px;
+  border-width: 150px;
+  background-color: white;
+  margin: px;
+}
+
+.flex-item-3 {
+  border-radius: 40px;
+  border-width: 150px;
+  background-color: white;
+}
+
+.join-link {
+  margin: 0;
+  padding: 14px 20px;
+  background-color: turquoise;
+  color: white;
+  font-size: 20px;
 }

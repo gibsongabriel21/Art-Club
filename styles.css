@@ -49,25 +49,28 @@ body {
   flex-direction: column;
   text-align: center;
   flex: 1 2 300px;
+  font-family: "perpetua", serif;
 }
 
 .flex-item-1 {
   border-radius: 40px;
   border-width: 150px;
   background-color: white;
+  padding: 20px 0;
 }
 
 .flex-item-2 {
   border-radius: 70px;
   border-width: 150px;
   background-color: white;
-  margin: px;
+  padding: 20px 0;
 }
 
 .flex-item-3 {
   border-radius: 40px;
   border-width: 150px;
   background-color: white;
+  padding: 20px 0;
 }
 
 .join-link {

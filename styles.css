@@ -11,6 +11,11 @@
   margin: 0;
   padding: 0;
 }
+
+.navigation a:hover {
+  text-decoration: none;
+  color: white;
+}
 .title {
   background-color: #505050;
   display: flex;
@@ -18,7 +23,7 @@
   font-size: 60px;
   color: white;
 }
-
+/* ^ this is used for blacking out the top as well as flexboxing the logo and the title of the page*/
 li a {
   display: inline-block;
   color: white;
@@ -29,14 +34,12 @@ li a {
   float: right;
 }
 
+/*makes the link darker when hovered over*/
 li a:hover {
   background-color: #14dbc7;
 }
 
-body {
-  background-color: ;
-}
-
+/* used for positioning the slideshow*/
 .slideshow-container {
   position: absolute;
   padding: 50px;
@@ -45,10 +48,7 @@ body {
   /* Center vertically and horizontally */
 }
 
-.myslides {
-  position: center;
-}
-
+/*This is used as a white box that will be placed around most text in the website as well as giving it a rounded border*/
 .flex-container {
   flex-direction: column;
   text-align: center;
@@ -56,32 +56,26 @@ body {
   font-family: "perpetua", serif;
 }
 
-.flex-item-1 {
+.myslides {
+  position: center;
+}
+
+.flex-item {
   border-radius: 40px;
   border-width: 150px;
   background-color: white;
   padding: 20px 0;
 }
 
-.flex-item-1 p {
+.flex-item p {
   font-size: 20px;
-}
-.flex-item-2 {
-  border-radius: 40px;
-  border-width: 150px;
-  background-color: white;
-  padding: 20px 0;
-}
-.flex-item-2 p {
-  font-size: 20px;
-}
-.flex-item-3 {
-  border-radius: 40px;
-  border-width: 150px;
-  background-color: white;
-  padding: 20px 0;
 }
 
+.flex-item a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #14dbc7;
+}
 .join-link {
   margin: 0;
   padding: 14px 20px;
@@ -94,6 +88,11 @@ body {
   flex-direction: row;
 }
 
-a:hover {
-  text-decoration: none;
+.description {
+  flex-direction: column;
+  text-align: center;
+  flex: 1 2 300px;
+  font-family: "perpetua", serif;
+  background-color: white;
+  border-radius: 40px;
 }

@@ -42,7 +42,27 @@
 
     <div class="description">
       <h1>Sign Up here!</h1>
-      <p>Text goes here</p>
+      <p>
+        Contact Amber Douglas at douglas.amber@k12tn.net or fill out the form
+        below.
+      </p>
+      <p>Cost to join is $5.00</p>
+      <p>Enter your name and number below:</p>
+      <input type="text" id="name" />
+      <br />
+      <br />
+      <input type="text" id="number" />
+      <input type="button" onclick="thankYou()" value="submit" />
+      <p id="result"></p>
     </div>
+    <script>
+      function thankYou() {
+        let name = document.getElementById("name").textContent;
+        let number = document.getElementById("number").textContent;
+        if ((name = "undefined")) or ((number="undefined")) {
+          alert("Please Enter a name and number!")
+        }
+      }
+    </script>
   </body>
 </html>

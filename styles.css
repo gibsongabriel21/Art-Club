@@ -95,6 +95,7 @@ li a:hover {
   font-family: "perpetua", serif;
   background-color: white;
   border-radius: 40px;
+  font-size: 20px;
 }
 
 .gal-description {
@@ -116,4 +117,8 @@ li a:hover {
 
 .event-calendar h1 {
   text-align: center;
+}
+
+.meeting-list {
+  font-size: 20px;
 }

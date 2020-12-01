@@ -48,19 +48,25 @@
       </p>
       <p>Cost to join is $5.00</p>
       <p>Enter your name and number below:</p>
+      <p>Name:</p>
       <input type="text" id="name" />
       <br />
       <br />
-      <input type="text" id="number" />
+      <p>
+        Phone Number:
+      </p>
+      <input type="text" class="phone" />
       <input type="button" onclick="thankYou()" value="submit" />
-      <p id="result"></p>
     </div>
+
     <script>
       function thankYou() {
         let name = document.getElementById("name").textContent;
-        let number = document.getElementById("number").textContent;
-        if ((name = "undefined")) or ((number="undefined")) {
-          alert("Please Enter a name and number!")
+        let phone = document.getElementsByClassName("phone").textContent;
+        if (name === "undefined" && phone === "undefined") {
+          alert("Please enter a name and number!");
+        } else {
+          alert("Thank you for submitting!");
         }
       }
     </script>

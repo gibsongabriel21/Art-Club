@@ -5,7 +5,7 @@
 /* Customized the links at the top of the website */
 .navigation {
   list-style-type: none;
-  background-color: #40e0d0;
+  background-color: #48d1cc;
   font-family: "Arial";
   overflow: hidden;
   margin: 0;
@@ -19,9 +19,13 @@
 .title {
   background-color: #505050;
   display: flex;
-  font-family: "perpetua", serif;
+  font-family: "Yellowtail", "perpetua", serif;
   font-size: 60px;
   color: white;
+}
+
+.title p {
+  margin-left: 15px;
 }
 /* ^ this is used for blacking out the top as well as flexboxing the logo and the title of the page*/
 li a {
@@ -36,7 +40,7 @@ li a {
 
 /*makes the link darker when hovered over*/
 li a:hover {
-  background-color: #14dbc7;
+  background-color: #00ced1;
 }
 
 /* used for positioning the slideshow*/
@@ -44,6 +48,7 @@ li a:hover {
   position: absolute;
   width: 100%;
   margin: 0 0 0 25%;
+  max-width: 1000px;
 
   /* Center vertically and horizontally */
 }
@@ -65,6 +70,7 @@ li a:hover {
   border-width: 150px;
   background-color: white;
   padding: 20px 0;
+  margin: 20px 20px 0 20px;
 }
 
 .flex-item p {
@@ -96,6 +102,8 @@ li a:hover {
   background-color: white;
   border-radius: 40px;
   font-size: 20px;
+  padding: 20px;
+  margin: 20px 20px 0 20px;
 }
 
 .gal-description {
@@ -109,16 +117,18 @@ li a:hover {
   font-size: 20px;
 }
 
-.event-calendar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.event-calendar h1 {
-  text-align: center;
-}
-
 .meeting-list {
   font-size: 20px;
+}
+
+.sign-description {
+  flex-direction: column;
+  text-align: center;
+  flex: 1 2 300px;
+  font-family: "perpetua", serif;
+  background-color: white;
+  border-radius: 40px;
+  font-size: 20px;
+  padding: 20px;
+  margin: 20px 20px 0 20px;
 }

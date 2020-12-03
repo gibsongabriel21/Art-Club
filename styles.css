@@ -5,7 +5,7 @@
 /* Customized the links at the top of the website */
 .navigation {
   list-style-type: none;
-  background-color: #48d1cc;
+  background-color: #940e15;
   font-family: "Arial";
   overflow: hidden;
   margin: 0;
@@ -40,7 +40,7 @@ li a {
 
 /*makes the link darker when hovered over*/
 li a:hover {
-  background-color: #00ced1;
+  background-color: #ab3238;
 }
 
 /* used for positioning the slideshow*/
@@ -80,12 +80,12 @@ li a:hover {
 .flex-item a:hover {
   text-decoration: none;
   color: white;
-  background-color: #14dbc7;
+  background-color: #ab3238;
 }
 .join-link {
   margin: 0;
   padding: 14px 20px;
-  background-color: turquoise;
+  background-color: #940e15;
   color: white;
   font-size: 20px;
 }

@@ -47,12 +47,23 @@ li a:hover {
 .slideshow-container {
   position: absolute;
   width: 100%;
-  margin: 0 0 0 25%;
+  margin: 0 20% 0 25%;
   max-width: 1000px;
 
   /* Center vertically and horizontally */
 }
+.myslides {
+  margin: 20px 0 0 0;
+  display: flex;
+  flex-directon: row;
+}
+.w3-display-left {
+  margin: 0 0 0 15%;
+}
 
+.w3-display-right {
+  margin: 0 15% 0 0;
+}
 /*This is used as a white box that will be placed around most text in the website as well as giving it a rounded border*/
 .flex-container {
   flex-direction: column;

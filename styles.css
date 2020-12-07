@@ -23,11 +23,11 @@
   font-size: 60px;
   color: white;
 }
-
+/* The title code is used for making the title text and logo line up*/
 .title p {
   margin-left: 15px;
 }
-/* ^ this is used for blacking out the top as well as flexboxing the logo and the title of the page*/
+
 li a {
   display: inline-block;
   color: white;
@@ -38,7 +38,7 @@ li a {
   float: right;
 }
 
-/*makes the link darker when hovered over*/
+/*makes the link lighter when hovered over*/
 li a:hover {
   background-color: #ab3238;
 }
@@ -104,7 +104,7 @@ li a:hover {
 .homegallery {
   flex-direction: row;
 }
-
+/*These are white boxes around the descriptions that are on the website*/
 .description {
   flex-direction: column;
   text-align: center;
@@ -135,7 +135,7 @@ li a:hover {
 .meeting-list {
   font-size: 20px;
 }
-
+/*This code is used for the sign-up page in order to make the text and submit buttons fit into the box/
 .sign-description {
   flex-direction: column;
   text-align: center;
